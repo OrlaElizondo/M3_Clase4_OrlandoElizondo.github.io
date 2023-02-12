@@ -9,11 +9,12 @@
     <!--REFERENCIAS DE BOOTSTRAP-->
     <link rel="stylesheet" href="dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <script src="dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
-            <style>
-                .custom-toggler.navbar-toggler {
-                    outline: none;
-                }
-            </style>
+    <script src="js/icons.js"></script>
+
+    
+    <!--REFERENCIAS DE FONTAWESOME-->
+    <link rel="stylesheet" href="dist/fontawesome-free-6.3.0-web/css/fontawesome.min.css">
+    <script src="dist/fontawesome-free-6.3.0-web/js/fontawesome.min.js"></script>
 
     <!--REFERENCIAS DE ICONS-->
     <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon">
@@ -58,9 +59,10 @@
         </nav>
     </header>
     <main>
-        <div class="mb-4">
-            <div class="container pt-4">
+        <div>
+            <div class="container pt-4 pb-4">
                 <h1 style="">Orlando Elizondo</h1>
+                <p><b>Hola</b></p>
                 <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quam unde at, adipisci dolores aliquam nostrum. Est consectetur corrupti deserunt reprehenderit nostrum iusto, temporibus, recusandae, animi vitae dolor corporis itaque!
                 </p>
@@ -72,7 +74,7 @@
         </div>
 
         <!--SECCIÓN DE PROYECTOS-->
-            <section id="Proyectos" class="mb-4">
+            <section id="Proyectos">
                 <div class="container">
                     <h2>Proyectos</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quam, tenetur impedit quisquam, id voluptates autem officiis error minima explicabo consequuntur ex debitis odit quas quo asperiores accusamus, blanditiis quasi?</p>
@@ -83,7 +85,7 @@
                             <div class="card mb-2">
                                 <img class="card-img-top" src="images/proy_web-design_sm.jpg" srcset="/images/proy_web-design_sm.jpg 480w, /images/proy_web-design_md.jpg 800w" alt="Diseño Web">
                                 <div class="card-body">
-                                    <h4>Diseño Web</h4>
+                                    <h5>Diseño Web</h5>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +95,7 @@
                             <div class="card mb-2">
                                 <img class="card-img-top" src="images/proy_database_sm.jpg" srcset="/images/proy_database_sm.jpg 480w, /images/proy_database_sm.jpg 800w" alt="Base de datos">
                                 <div class="card-body">
-                                    <h4>Base de datos</h4>
+                                    <h5>Base de datos</h5>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +105,7 @@
                             <div class="card mb-2">
                                 <img class="card-img-top" src="images/proy_apps_sm.jpg" srcset="/images/proy_apps_sm.jpg 480w, /images/proy_apps_md.jpg 800w" alt="Aplicaciones Moviles">
                                 <div class="card-body">
-                                    <h4>Aplicaciones Moviles</h4>
+                                    <h5>Aplicaciones Moviles</h5>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +115,7 @@
                             <div class="card mb-2">
                                 <img class="card-img-top" src="images/proy_services_sm.jpg" srcset="/images/proy_services_sm.jpg 480w, /images/proy_services_md.jpg 800w" alt="Servicios">
                                 <div class="card-body">
-                                    <h4>Servicios</h4>
+                                    <h5>Servicios</h5>
                                 </div>
                             </div>
                         </div>
@@ -122,9 +124,9 @@
             </section>
 
         <!--SECCIÓN-->
-            <section id="Productos" class="mb-4">
+            <section id="Productos">
                 <div class="container">
-                    <h2>Proyectos</h2>
+                    <h2>Productos</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quam, tenetur impedit quisquam, id voluptates autem officiis error minima explicabo consequuntur ex debitis odit quas quo asperiores accusamus, blanditiis quasi?</p>
 
 
@@ -165,33 +167,72 @@
                 </div>
             </section>
 
-        <!--SECCIÓN-->
-            <section id="Contacto" class="mb-4">
-                <div class="container">
-                    <div class="row">
-                        <!--TARJETA-->
-                        <div class="col">
-                            <h2>Contacto</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quam, tenetur impedit quisquam, id voluptates autem officiis error minima explicabo consequuntur ex debitis odit quas quo asperiores accusamus, blanditiis quasi?</p>
-                        </div>
-                        <div class="col">
-                            <form action="">
-                                <label for="ctonact_email">Escribe tu correo</label>
-                                <input type="email" id="contacto_email" class="form-control form-control-sm" placeholder="name@domain.com">
-                                <label for="contacto_message" class="mt-1">Escribe tus comentarios</label>
-                                <textarea name="contacto_message" id="contacto_message" class="form-control form-control-sm" cols="30" placeholder="Escribe tu mensaje"></textarea>
-                                <input type="sumbit" value="Enviar" class="btn btn-success mt-2">
-                            </form>
-                        </div>
+    </main>
 
+
+        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+            <!-- Grid container -->
+            <div class="container pb-4">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col">
+                  <h2>Nosotros...</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni dolores tenetur temporibus ab. Odio vel qui officiis fuga doloremque velit exercitationem, minus cumque placeat, tenetur, quis suscipit! Saepe, incidunt?
+                  </p>
+        
+                  <div class="mt-4">
+                    <a type="button" href="https://www.facebook.com/orlando.elizondo.75" target="_blank"><img src="images/icons/facebook.png" width="32px"></a>
+                    <a type="button" href="https://www.facebook.com/orlando.elizondo.75" target="_blank"><img src="images/icons/instagram.png" width="32px"></a>
+                    <a type="button" href="https://www.facebook.com/orlando.elizondo.75" target="_blank"><img src="images/icons/twitter.png" width="32px"></a>
+                    <a type="button" href="https://www.facebook.com/orlando.elizondo.75" target="_blank"><img src="images/icons/tiktok.png" width="32px"></a>
+                    <a type="button" href="https://www.facebook.com/orlando.elizondo.75" target="_blank"><img src="images/icons/linkedin.png" width="32px"></a>
+                  </div>
+                </div>
+                <!--Grid column-->
+        
+                <div class="col">
+                    <h2>Contactanos</h2>
+                    <form action="">
+                        <label for="contacto_email">Escribe tu correo</label>
+                        <input type="email" id="contacto_email" class="form-control form-control-sm" placeholder="name@domain.com">
+                        <label for="contacto_message" class="mt-1">Escribe tus comentarios</label>
+                        <textarea name="contacto_message" id="contacto_message" class="form-control form-control-sm" cols="30" placeholder="Escribe tu mensaje"></textarea>
+                        <input type="sumbit" value="Enviar" class="btn btn-primary mt-2">
+                    </form>
+                </div>
+
+                <!--Grid column-->
+                <div class="col">
+                    <h2>Ubicanos</h2>
+                    <div class="form-outline form-white mb-4">
+                            <ul class="fa-ul" style="margin-left: 1.65em;">
+                                <li class="mb-3">
+                                    <img src="images/icons/addres.png" width="16px"> Monterrey, Nuevo León, Mx</span>
+                                </li>
+                                <li class="mb-3">
+                                    <img src="images/icons/mail.png" width="16px"> orlando.elizondo.sedano@gmail.com
+                                </li>
+                                <li class="mb-3">
+                                    <img src="images/icons/Message.png" width="16px"> 811 000 0000</i>
+                                </li>
+                            </ul>
                     </div>
                 </div>
-            </section>
-    </main>
-    <footer>
-        <div class="container" color="#ffffff;">
-            &copy; 2023 | Orlando Elizondo Sedano
-        </div>
+                <!--Grid column-->
+            </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                &copy; 2023 | Orlando Elizondo Sedano
+            </div>
+            <!-- Copyright -->
+
+
     </footer>
 </body>
 </html>
